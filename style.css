@@ -1,0 +1,72 @@
+:root{
+     --bg1 :pink;
+     --bg2 :#3498db;
+     --text :#26ade4;
+}
+*{
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url("https://scontent.fdad3-1.fna.fbcdn.net/v/t1.0-9/97050906_2692939004367944_8222466733571571712_o.jpg?_nc_cat=110&ccb=3&_nc_sid=a4a2d7&_nc_ohc=uOpM1k_T90gAX-ls15X&_nc_ht=scontent.fdad3-1.fna&oh=9f4a9c458aab7f4cd1443106eefbad67&oe=6054167A");
+    background-position: center;
+    /* vi tri cua anh */
+    background-repeat: no-repeat;
+    /* lap lai anh */
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    /* thiet lap font-size cho anh  */
+
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* canh chu o giua background */
+}
+.item{
+    margin-right:20px;
+    height:120px;
+    width: 120px;
+    border: 2px solid var(--text);
+    flex-direction: column;
+    border-radius:50%;
+    justify-content:center;
+    color:red;
+
+}
+.item span{
+    font-weight:bold;
+    font-size:32px;
+    margin-top:12px;
+}
+.nav{
+    position:absolute;
+    top:200px;
+}
+
+.nav span{
+    font-weight:bold;
+    font-size:50px;
+    color:green;
+}
+.content{
+    position:absolute;
+    bottom:90px;
+}
+
+.me{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+}
+.you{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+}
+.heart{
+    width:130px;
+    height:130px;
+}
